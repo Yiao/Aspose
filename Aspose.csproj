@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestFile\account_1.html" />
+    <None Remove="TestFile\IdScopeContextPeriodStartAfterEnd.xml" />
+    <None Remove="TestFile\schema.xsd" />
+    <None Remove="TestFile\xbrl-instance-2003-12-31.xsd" />
+    <None Remove="TestFile\xbrl-linkbase-2003-12-31.xsd" />
+    <None Remove="TestFile\xl-2003-12-31.xsd" />
+    <None Remove="TestFile\xlink-2003-12-31.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Finance" Version="23.10.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="TestFile\account_1.html" />
+    <Resource Include="TestFile\IdScopeContextPeriodStartAfterEnd.xml" />
+    <Resource Include="TestFile\schema.xsd" />
+    <Resource Include="TestFile\xbrl-instance-2003-12-31.xsd" />
+    <Resource Include="TestFile\xbrl-linkbase-2003-12-31.xsd" />
+    <Resource Include="TestFile\xl-2003-12-31.xsd" />
+    <Resource Include="TestFile\xlink-2003-12-31.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ResultFile\" />
+  </ItemGroup>
+
+</Project>
