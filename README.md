@@ -1,21 +1,25 @@
 # Aspose
 
-## Version
-### .NET8
-### aspose-finance 23.10.0
-### System.Drawing.Common 4.5.2
-### Only For MAC
-### runtime.osx.10.10-x64.CoreCompat.System.Drawing 6.0.5.128
+## Installtion
 
-## Windows
+### Windows
+ * .NET8
+ * aspose-finance 23.10.0
+ * System.Drawing.Common 4.5.2
+
 1. You need clone the project to your computer
    ```
    git clone https://github.com/Yiao/Aspose.git
    ```
 2. You open the project with Visual Studio
 3. Run the application
-   
-## Mac
+
+### Mac
+ * .NET8
+ * aspose-finance 23.10.0
+ * System.Drawing.Common 4.5.2
+ * runtime.osx.10.10-x64.CoreCompat.System.Drawing 6.0.5.128
+
 1. You need clone the project to your computer
    ```
    git clone https://github.com/Yiao/Aspose.git
@@ -39,4 +43,4 @@
             return startDirectory != null ? Path.Combine(startDirectory, "ResultFile/") : null;
    }
    ```
-6. Run the application
+5. Run the application
